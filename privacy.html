@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>klustafuk privacy policy</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; background: #111110; color: #f2f0ea; font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif; }
+  header, main { box-sizing: border-box; max-width: 40rem; margin: 0 auto; padding: 1.25rem 1.25rem 2rem; }
+  header { display: flex; align-items: baseline; gap: 1rem; border-bottom: 1px solid #2c2c2a; }
+  .name { font-style: italic; font-size: 1.7rem; }
+  a { color: #f2f0ea; }
+  h1 { font-weight: 400; font-style: italic; font-size: 2.5rem; margin: 1.5rem 0 0; }
+  .updated, h2, p, li { font-family: system-ui, sans-serif; }
+  .updated { margin: 0.5rem 0 0; font-size: 0.75rem; color: #9c988f; }
+  h2 { font-size: 0.95rem; font-weight: 600; margin: 1.6rem 0 0.35rem; }
+  p, li { font-size: 0.95rem; line-height: 1.6; color: #b9b5ac; }
+</style>
+</head>
+<body>
+<header>
+  <span class="name">klustafuk</span>
+</header>
+<main>
+  <h1>Privacy policy</h1>
+  <p class="updated">Updated October 14, 2026</p>
+  <section>
+    <h2>Who runs klustafuk</h2>
+    <p>klustafuk is a home cluster app on computers you control. It does not create a klustafuk account, and it does not send your cluster to a server operated by a klustafuk service.</p>
+  </section>
+  <section>
+    <h2>The only permission</h2>
+    <p>The Android app asks for Internet access so it can reach the klustafuk address you type. Contacts, location, photos, camera, microphone, notifications, files, and the advertising ID stay unused. The Windows app asks to use your network for the same reason.</p>
+  </section>
+  <section>
+    <h2>What leaves the device</h2>
+    <p>The address you save stays on the device. A prompt you choose to send is transmitted to that address. On a typical home setup the connection is HTTP, so the text is not encrypted on your Wi-Fi. Send prompts on a network you trust. The reply is written by the model loaded in LM Studio on one of your machines.</p>
+  </section>
+  <section>
+    <h2>Windows app</h2>
+    <p>If you join a Windows PC, klustafuk starts a local agent on that PC. The agent reports the computer's name, memory, and CPU, and forwards prompts to LM Studio on that same PC. It does not read your files. Joining needs Node.js installed on that PC.</p>
+  </section>
+  <section>
+    <h2>Join token</h2>
+    <p>Anyone who can open your control plane can see the join token and the LAN address. Keep that page on your own network.</p>
+  </section>
+  <section>
+    <h2>Reports</h2>
+    <p>You can report a reply inside the app. klustafuk pauses that model on your control plane until you clear the pause. The report stores the reason you pick and the model name. The reply text is not uploaded.</p>
+  </section>
+  <section>
+    <h2>Children</h2>
+    <p>klustafuk is for adults, 18 and older. It is not directed at children.</p>
+  </section>
+  <section>
+    <h2>Delete</h2>
+    <p>Safety, then Delete data on this device, clears the saved address and consent on the device, and asks your control plane to forget paused models. A prompt is not kept after the reply is shown. There is no account to close. The same steps are on the delete page of your control plane.</p>
+  </section>
+  <p>Account deletion for this app is described on the <a href="delete-account.html">delete page</a>. klustafuk does not open an account.</p>
+</main>
+</body>
+</html>
